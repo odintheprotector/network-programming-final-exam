@@ -7,7 +7,7 @@ import os, socket, threading, hashlib, queue, tkinter as tk
 from tkinter import ttk, filedialog, scrolledtext, messagebox
 from subprocess import run
 
-HOST, PORT = '127.0.0.1', 5000
+HOST, PORT = '127.0.0.1', 5000 #replace the public server here 
 CACHE_DIR  = 'client_downloads'; os.makedirs(CACHE_DIR, exist_ok=True)
 
 # ---------- helpers ----------
